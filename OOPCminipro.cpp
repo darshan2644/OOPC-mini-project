@@ -28,10 +28,11 @@ do {
      cout<<"Quitting the game. Goodbye!"<<endl;
     break;
    }
-cpu=rand() %3+1;
+   
+   cpu=rand() %3+1;//+1 for didine func 1to3 not for 0to2
 
 if(user==cpu){
-   cout<<"It's a tie!"<<endl;
+ cout<<"It's a tie!"<<endl;
 }
 
 if(user==1){
@@ -58,4 +59,43 @@ cout<<"cpu choose paper"<<endl;
 else{
 cout<<"cpu choose scissors"<<endl'
      }
+if(user==1)
+{
+   if(cpu==2)
+   {
+     cout<<"you Lose"<<endl;
+   }
+   if(cpu==3)
+   {
+     cout<<"you win"<<endl;
+   }
+}
+//user chooses paper
+else if(user==2)
+{
+   if(cpu==1)
+   {
+     cout<<"you win"<<endl;
+   }
+   if(cpu==3)
+  {
+     cout<<"you loose";<<endl;
+  }
+}
+//user chooses scissors
+else if(user==3)
+{
+   if(cpu==1)
+   {
+     cout<<"you lose"<<endl;
+   }
+   if(cpu==2)
+   {
+     cout<<"you win"<<endl;
+   }
+}
+  } while (true);
+
+ return 0;
+}
 
