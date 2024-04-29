@@ -55,6 +55,7 @@ else if(cpu==2)
 {
 cout<<"cpu choose paper"<<endl;
 }
-
-   
+else{
+cout<<"cpu choose scissors"<<endl'
+     }
 
