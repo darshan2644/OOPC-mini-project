@@ -28,5 +28,33 @@ do {
      cout<<"Quitting the game. Goodbye!"<<endl;
     break;
    }
+cpu=rand() %3+1;
+
+if(user==cpu){
+   cout<<"It's a tie!"<<endl;
+}
+
+if(user==1){
+cout<<"you choose Rock"<<endl;
+}
+
+elseif(user==2)
+     {
+cout<<"you choose Paper"<<endl;
+}
+
+else{
+cout<<"you choose scissors"<<endl;
+}
+
+if(cpu==1)
+{
+cout<<"cpu choose Rock"<<endl;
+}
+else if(cpu==2)
+{
+cout<<"cpu choose paper"<<endl;
+}
+
    
 
